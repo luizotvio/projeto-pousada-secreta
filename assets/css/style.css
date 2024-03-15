@@ -132,6 +132,7 @@ header, main, section, footer {
     object-fit: cover;
     margin: 10px;
     box-shadow: 5px 5px 15px;
+    border-radius: 10px;
 }
 
 .card-images a {
@@ -142,4 +143,59 @@ header, main, section, footer {
 .rota iframe {
     width: 100%;
     height: 300px;
+}
+
+.container-about {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.card-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    
+
+}
+.about-text {
+    width: 90%;
+    text-align: center;
+    height: auto;
+}
+
+.about-text h4 {
+    margin-bottom: 10px;
+}
+
+.card-about img {
+    width: 100px;
+    height: 90px;
+    margin: 10px;
+}
+
+footer {
+    background-color: var(--dark-green);
+}
+
+.info-contatos {
+    display: flex;
+    padding: 10px;
+}
+
+.info-contatos h4 {
+    font-size: 25px;
+}
+
+.info-contatos img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.direitos {
+    text-align: center;
+    padding: 20px 10px;
 }
