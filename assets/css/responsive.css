@@ -105,4 +105,9 @@
         align-items: center;
         width: 49%
     }
+
+    .list-quarto {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
 }
