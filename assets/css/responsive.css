@@ -1,0 +1,108 @@
+@media (min-width: 768px) {
+
+    .cabecalho {
+        max-width: 80%;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .nav-links li {
+        margin-right: 10px;
+    }
+    
+    .text-banner {
+        width: 50%;
+    }
+
+    .container {
+        max-width: 80%;
+    }
+
+    .container-images {
+        overflow-x: hidden;
+        max-width: 90%;
+    }
+
+    .card-images a {
+        padding: 10px;
+        border-bottom: 2px solid var(--dark-green);
+    }
+
+    .card-about {
+        flex-direction: row;
+        width: 90%;
+    }
+
+    .card-contatos {
+        display: flex;
+    }
+
+    .info-contatos {}
+
+    .info-contatos h4 {
+        font-size: 20px;
+    }
+    
+  .info-contatos img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (min-width: 1024px) {
+
+    .espa-ext {
+        margin: 100px 0;
+    }
+
+    .cabecalho {
+        max-width: 1024px;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        padding: 10px;
+    }
+
+    .text-banner {
+        width: 40%;
+        padding: 20px 15px;
+    }
+
+    .text-banner h2 {
+        font-size: 50px;
+        padding: 10px;
+    }
+
+    .container {
+        max-width: 1024px;
+    }
+
+    .container-images {
+        max-width: 1024px;
+        
+    }
+     
+    .container-images img {
+        width: 300px;
+        height: 200px;
+    }
+
+    .card-images {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-about {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+
+    .card-about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 49%
+    }
+}

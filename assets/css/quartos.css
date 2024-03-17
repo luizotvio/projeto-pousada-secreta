@@ -104,17 +104,19 @@ header {
     letter-spacing: 1px;
 }
 
-.gallery-quartos {
-    width: 90%;
+.container-images {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
     overflow-x: scroll;
+    max-width: 300px;
+    height: 300px;
     margin: 0 auto;
+    padding: 10px;
 }
 
-.gallery-quartos img {
+.container-images img {
     width: 200px;
     height: 170px;
     margin: 10px;
