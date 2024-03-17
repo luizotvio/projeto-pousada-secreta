@@ -104,8 +104,28 @@ header {
     letter-spacing: 1px;
 }
 
+.gallery-quartos {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow-x: scroll;
+    margin: 0 auto;
+}
+
+.gallery-quartos img {
+    width: 200px;
+    height: 170px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px;
+    border-radius: 10px;
+}
+
+
 .info-quarto h4 {
     text-align: center;
+    margin: 20px 0;
 }
 
 .list-quarto {
@@ -115,6 +135,12 @@ header {
     list-style: none;
     margin: 1rem;
     flex-wrap: wrap;
+}
+
+.list-quarto li {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin:10px;
 }
 
 footer {
