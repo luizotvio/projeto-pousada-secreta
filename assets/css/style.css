@@ -18,6 +18,10 @@
     --light-blue: #81b7e0;
 }
 
+html{ 
+    scroll-behavior: smooth; 
+    }
+
 body {
     min-height: 100vh;
     background-color: var(--color-white);
